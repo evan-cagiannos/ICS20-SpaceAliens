@@ -35,12 +35,4 @@ const config = {
 }
 
 const game = new Phaser.Game(config)
-// console.log(game)
-
-// load scene 
-// NOTE: remeber any "key" is global and CAN NOT be reused
-game.scene.add('splashScene', splashScene)
-game.scene.add('titleScene', titleScene)
-
-// Title Start
-game.scene.start("splashScene")
+console.log(game)
